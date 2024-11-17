@@ -1,0 +1,26 @@
+{
+    "name": "MultiDeviceTest",
+    "description": "A plugin to control test modes across multiple FPP devices.",
+    "version": "1.0.0",
+    "fpp_version_required": "6.0",
+    "author": "Your Name",
+    "homepage": "https://github.com/your-repo/fpp-plugin-MultiDeviceTest",
+    "settings": {
+        "device_list": {
+            "type": "text",
+            "description": "Comma-separated list of FPP device IP addresses",
+            "default": "192.168.1.101,192.168.1.102"
+        },
+		"default_effect": {
+			"type": "dropdown",
+			"description": "Default test effect to apply",
+			"options": ["solid", "chase", "rainbow", "sparkle", "portnumber", "bars", "noise", "twinkle", "wipe", "fire", "pattern", "theaterchase"],
+			"default": "solid"
+		},
+        "default_brightness": {
+            "type": "number",
+            "description": "Default brightness level (0-100)",
+            "default": 100
+        }
+    }
+}
