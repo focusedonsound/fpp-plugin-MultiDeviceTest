@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "fpp_version_required": "6.0",
     "author": "Your Name",
-    "homepage": "https://github.com/your-repo/fpp-plugin-MultiDeviceTest",
+    "homepage": "https://github.com/focusedonsound/fpp-plugin-MultiDeviceTest",
     "settings": {
         "device_list": {
             "type": "text",
